@@ -51,8 +51,8 @@
     "skipLibCheck": true /* Skip type checking of declaration files. */,
 
     "paths": {
-      "package-a/*": ["./packages/package-a/addon/*"],
-      "package-b/*": ["./packages/package-b/addon/*"],
+      "package-a/*": ["./packages/package-a/declarations/addon/*"],
+      "package-b/*": ["./packages/package-b/declarations/addon/*"],
       "*": ["./types/*"]
     }
   },

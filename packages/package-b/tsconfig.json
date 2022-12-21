@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "composite": true,
+    "declarationDir": "declarations"
   },
   "include": ["./addon/**/*", "../../../types"],
   "glint": {
